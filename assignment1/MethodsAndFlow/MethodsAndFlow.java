@@ -20,20 +20,28 @@ public class MethodsAndFlow {
 	}
 
 	public void outputSubset(int startPosition, int numberOfValues) {
-		int temp = Math.min(startPosition, numberOfValues);
-		if (temp <= startPosition)
-			for (int i = startPosition; i < temp; i++) {
+		int temp = Math.min(startPosition + numberOfValues, stringArray.length);
+		
+		if(((temp > 0) && (temp == stringArray.length))){	
+			for (int i = 0; i < stringArray.length; i++) 
+			{
 				System.out.println(stringArray[i]);
 			}
-		else if (temp >= startPosition)
-			for (int i = temp; i > startPosition; i--) {
+		}
+		else if(temp > 0){	
+			for (int i = 0; i < stringArray.length; i++) 
+			{
 				System.out.println(stringArray[i]);
 			}
+		}
 		else if (numberOfValues > stringArray.length) {
 			String s = "Index out of bounds";
 			throw new IndexOutOfBoundsException(s);
 		}
-
+		else if (startPosition < 0) {
+			String s = "Index out of bounds";
+			throw new IndexOutOfBoundsException(s);
+		}
 	}
 
 	public void outputAll() {
