@@ -1,0 +1,33 @@
+
+Ami Shah
+Constructors and Instantiation 2
+
+1) new Car()
+public Car(){}
+
+2) new Car("Red", 4)
+public Car(String c, int x){this.c = c; this.x = x;}
+
+3) new Bus(32)
+public Bus(int x) {this.x = x;}
+
+4) new HotDog("Ketchup", "Mustard")
+public HotDog(String ing, String ing2){this.ing = ing; this.ing2 =ing2;}
+
+5) new Aroma("Bad")
+public Aroma(String a){this.a = a;}
+
+6) new Behavior(true)
+public Behavior(boolean b) {this.b = b;}
+
+7) new Assignment(false)
+public Assignment (boolean b){this.b = b;}
+
+8) new AstronomicalDistance(10, 20)
+public AstronomicalDistance(int x, int y){this.x = x; this.y = y;}
+
+9) new DateTime(2016, 07, 22)
+public DateTime(int y, int m, int d){this.y = y; this.m = m; this.d = d;}
+
+10) new Assignment("You are done! Go Home!"
+public Assignment (String s){this.s = s;}

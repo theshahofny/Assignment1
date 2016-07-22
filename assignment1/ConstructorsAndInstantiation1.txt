@@ -1,0 +1,31 @@
+Ami Shah
+Constructors and Instantiation 1
+
+1) public Car()
+ Car c = new Car()
+
+2) public Bean(int weight)
+Bean b = new Bean(int w);
+3) public Airplane(long maxDistance)
+Airplane a = new Airplane(long mD);
+
+4) public Bus(int seats)
+Bus b = new Bus(int sts)
+
+5) public SkiLift(int chairs, float maxSpeed, float maxCapacity)
+SkiLift sK = new SkiLift(int c, float mS, float mC);
+
+6) public Gondola(int maxOccupancy)
+Gondola g = new Gondola (int mO);
+
+7) public Data(String[] args)
+Data d = new Data(String[] argument);
+
+8) public CelestialObject(Double distanceFromSol)
+CelestialObject cO = new CelestialObject (Double dFS);
+
+9) public Sun(Double maxSurfaceTemperature)
+Sum s = new Sum(Double mST);
+
+10) public Pluto(boolean isPlanetOrNot)
+Pluto p = new Pluto (boolean iPON);
